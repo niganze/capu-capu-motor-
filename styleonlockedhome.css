@@ -1,0 +1,132 @@
+:root {
+    --mainclr: #239f85;
+    --secclr: #ff5d22;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    transition: 0.2s;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+html {
+    font-size: 62.5%;
+    overflow: hidden;
+}
+
+.header {
+    padding: 1.5rem 7%;
+    background-color: #24244d;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+.header #logo {
+    width: 50px;
+}
+
+.header p {
+    font-size: 25px;
+    margin-right: 130px;
+    color: rgb(181, 224, 24);
+}
+.header .navbar {
+    margin-right: 3%;
+    margin-left: 65%;
+}
+
+.navbar a {
+    color: white;
+    font-size: 2.5rem;
+    margin-left: 5rem;
+    border: #ff5d22;
+}
+
+.navbar a:after {
+    content: "";
+    background: var(--secclr);
+    width: 100%;
+    height: 3px;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    margin-top: 5px;
+}
+
+.icons div {
+    font-size: 2rem;
+    margin: right 1rem;
+    color: white;
+    display: none;
+}
+
+.icons a {
+    color: white;
+    background: var(--secclr);
+    padding: 1.5rem 3rem;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    transition: 0.2s;
+}
+
+.icons a:hover {
+    background: transparent;
+    border: 1px solid var(--secclr);
+}
+
+.navbar.active {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+}
+
+.background-image {
+    background: linear-gradient(rgba(27, 33, 71, 0.9), rgba(23, 30, 70, 0.9)), url(background.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 6%;
+    position: relative;
+}
+
+.background-content {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    width: 50%;
+    transform: translate(-80%);
+}
+
+.background-content h1 {
+    color: black;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.background-content p {
+    font-size: 1.5rem;
+    margin-bottom: 10%;
+}
+
+.background-content a {
+    background: #191970;
+    padding: 1.5rem 3rem;
+    border-radius: 15px;
+    color: white;
+    font-size: 1.5rem;
+    transition: 0.5s;
+}
+
+.background-content a:hover {
+    background: transparent;
+    border: 1px solid var(--secclr);
+    color: black;
+}

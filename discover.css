@@ -1,0 +1,148 @@
+.heading h1 {
+    align-items: center;
+    color: brown;
+    text-align: center;
+    padding: 0 0 20px 0;
+    border-bottom: 1px solid silver;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: montserrat;
+    background: linear-gradient(120deg, #65a1c9, #8ec4c4);
+}
+.heading h3 {
+    color: black;
+    margin: 10px;
+}
+.contain{
+    position: absolute;
+    top: 30%;
+    left: 25%;
+    transform: translate(-50%,-50%);
+    width: 600px;
+    padding: 30px;
+    background: rgb(142, 168, 172);
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 0 15px 50px egba(0,0,0,.2);
+}
+.circle{
+    width: 200px;
+    height: 200px;
+    background: url(food.jpeg);
+    border-radius: 50%;
+    float: left;
+    shape-outside: circle();
+    margin: 20px 20px 20px 0;
+}
+.contain p{
+    margin: 0;
+    padding: 0;
+    text-align: justify;
+    line-height: 18px;
+}
+.contain h1{
+    color: brown;
+}
+.contains {
+    position: absolute;
+    top: 30%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    width: 600px;
+    padding: 30px;
+    background: rgb(142, 168, 172);
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 0 15px 50px egba(0, 0, 0, .2);
+}
+
+.circles {
+    width: 200px;
+    height: 200px;
+    background: url(fitness.jpeg);
+    border-radius: 50%;
+    float: left;
+    shape-outside: circle();
+    margin: 20px 20px 20px 0;
+}
+
+.contains p {
+    margin: 0;
+    padding: 0;
+    text-align: justify;
+    line-height: 18px;
+}
+
+.contains h1 {
+    color: brown;
+}
+.containm {
+    position: absolute;
+    top: 80%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    width: 600px;
+    padding: 30px;
+    background: rgb(142, 168, 172);
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 0 15px 50px egba(0, 0, 0, .2);
+    margin-top: 3%;
+}
+
+.circlem {
+    width: 200px;
+    height: 200px;
+    background: url(leasure.jpeg);
+    border-radius: 50%;
+    float: left;
+    shape-outside: circle();
+    margin: 20px 20px 20px 0;
+}
+
+.containm p {
+    margin: 0;
+    padding: 0;
+    text-align: justify;
+    line-height: 18px;
+}
+
+.containm h1 {
+    color: brown;
+}
+.containd {
+    position: absolute;
+    top: 80%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    width: 600px;
+    padding: 30px;
+    background: rgb(142, 168, 172);
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 0 15px 50px egba(0, 0, 0, .2);
+    margin-top: 3%;
+}
+
+.circled {
+    width: 200px;
+    height: 200px;
+    background: url(healthplan.jpeg);
+    border-radius: 50%;
+    float: left;
+    shape-outside: circle();
+    margin: 20px 20px 20px 0;
+}
+
+.containd p {
+    margin: 0;
+    padding: 0;
+    text-align: justify;
+    line-height: 18px;
+}
+
+.containd h1 {
+    color: brown;
+}

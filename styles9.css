@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 20px;
+    background: #565;
+    padding: 2rem;
+    word-spacing: 1rem;
+}
+body {
+    background-color: #769;
+    background-position: 0 1000px;
+    font-family: 'roboto', sans-serif;
+    text-decoration: #565;
+    word-spacing: 1rem;
+    }

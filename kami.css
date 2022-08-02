@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body {
+    background: url(igaraje.jfif);
+    background-size: cover;
+    height: 100%;
+    font-family: sans-serif;
+}
+.contanainer {
+    width: 800px;
+    height: 600px;
+    background: #fff;
+    margin: 50px auto;
+    box-sizing: border-box;
+    padding: 40px;
+    box-shadow: 0 0 20px rgba(red, green, blue, alpha)
+}
+.contanainer p {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 20px;
+    color:blue;
+    letter-spacing: 1px;
+}
+.input, .msg .area {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-bottom: 25px;
+    border: 2px solid #e9eaae;
+    font-size: 14px;
+    border-radius: 5px;
+    outline: none;
+    transition: all 0.5s ease;
+}
+.login .input {
+    width: 48%;
+    float: left;
+    margin-right: 4%;
+}
+.login .input:last-child {
+    margin-right: 0;
+}
+.msg .area {
+    height: 200px;
+}
+.btn {
+    width: 250px;
+    background: #486255;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    color: #fff;
+    text-transform: uppercase;
+    margin: 0 auto;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.input:focus,
+.msg .area:focus {
+    border: 2px solid #486255;
+}
+::-webkit-input-placeholder {
+    font-family: "Roboto",sans-serif;
+}
+::-firefox-input-placeholder {
+    font-family: "Roboto",sans-serif;
+}
+::-mozi-input-placeholder {
+    font-family: "Roboto",sans-serif;
+}
